@@ -1174,11 +1174,34 @@ main #section4{
 #page2{
     height: 50vh;
 }
+#page2 h2{
+    font-size: 5vw;
+}
+#page2 h1{
+    font-size: 6vw;
+}
 #page4{
     height: 50vh;
 }
+
+#page4 h2{
+    font-size: 3.5vw;
+}
+#page4 h1{
+    font-size: 4vw;
+}
 #page6{
     height: 50vh;
+}
+#page6 h2{
+    font-size: 3.5vw;
+}
+#page6 h1{
+    font-size: 4vw;
+}
+
+#page9 #left9>h1{
+    font-size: 8vw;
 }
 
 #page10{
@@ -1189,17 +1212,50 @@ main #section4{
     height: 100%;
 }
 
+#right10-inner p{
+    font-size: 1.5vw;
+    width: 100%;
+}
+#right10-inner h1{
+    font-size: 3.3vw;
+}
+#right11>h4{
+    font-size: 3.5vw;
+}
+
+#right11>h1{
+    font-size: 3vw;
+}
 #page12{
     height: 40vh;
+}
+
+#page12-inner h1{
+    font-size: 7vw;
+}
+#page12-inner p{
+    font-size: 3vw;
 }
 
 #page13{
     height: 40vh;
 }
 
+#page13 h1{
+    font-size: 8vw;
+}
+
 #page13>button{
     /* padding: 1vw 2vw; */
     margin-bottom: 0vw;
+    font-size: 2.5vw;
+}
+
+.page14-inner>h1{
+    font-size: 8vw;
+}
+.page14-inner>i{
+    font-size: 8vw;
 }
 
 /* PRODUCTS PAGE */
@@ -1352,4 +1408,56 @@ main #section4{
 #pg6{
     height: 50vh;
 }
+}
+
+@media (max-width: 500px) {
+    #page2 h2{
+        font-size: 5.7vw;
+    }
+    #page2 h1{
+        font-size: 9vw;
+        width: 100%;
+    }
+    #page4 h2{
+        font-size: 3.8vw;
+    }
+    #page4 h1{
+        font-size: 5.8vw;
+        width: 100%;
+    }
+    #page6 h2{
+        font-size: 4.5vw;
+    }
+    #page6 h1{
+        font-size: 5.5vw;
+    }
+    #right10-inner p{
+        font-size: 1.9vw;
+        width: 100%;
+    }
+    #right10-inner h1{
+        font-size: 3.5vw;
+    }
+    #right11>h4{
+        font-size: 5vw;
+    }
+    
+    #right11>h1{
+        font-size: 3.5vw;
+    }
+    #page12-inner h1{
+        font-size: 12vw;
+    }
+    #page12-inner p{
+        font-size: 3.5vw;
+    }
+    #page13 h1{
+        font-size: 11vw;
+    }
+    
+    #page13>button{
+        /* padding: 1vw 2vw; */
+        margin-bottom: 0vw;
+        font-size: 3.5vw;
+    }
 }
