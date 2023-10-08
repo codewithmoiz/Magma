@@ -1,1 +1,1 @@
-"# MAGMA-Modern-Site" 
+# Magma-Modern
