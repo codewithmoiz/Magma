@@ -576,7 +576,6 @@ main #page2{
 
 .footer-bottom {
   background-color: #0a3cce;
-  padding: 10px 0;
   text-align: center;
 }
 
@@ -1056,7 +1055,7 @@ main #section4{
 
 #pg7{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     background-color: #0a3cce;
 }
 
@@ -1070,12 +1069,14 @@ main #section4{
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
   }
 
   .swiper-slide img {
     display: block;
+    height: 100%;
+    object-fit: cover;
     width: 100%;
   }
 
@@ -1238,7 +1239,7 @@ main #section4{
 }
 
 #page13{
-    height: 40vh;
+    height: 45vh;
 }
 
 #page13 h1{
@@ -1370,39 +1371,39 @@ main #section4{
 
 #p3-left{
     padding-top: 4vw;
-    height: 75%;
+    height: 70%;
 }
 #p3-right{
-    height: 25%;
+    height: 30%;
 }
 
 #p3-right>p{
     width: 100%;
-    font-size: 1.8vw;
+    font-size: 1.7vw;
 }
 #p4-left{
     padding-top: 4vw;
-    height: 75%;
+    height: 70%;
 }
 #p4-right{
-    height: 25%;
+    height: 30%;
 }
 
 #p4-right>p{
     width: 100%;
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 #p5-left{
     padding-top: 4vw;
-    height: 75%;
+    height: 70%;
 }
 #p5-right{
-    height: 25%;
+    height: 30%;
 }
 
 #p5-right>p{
     width: 100%;
-    font-size: 1.7vw;
+    font-size: 1.6vw;
 }
 
 #pg6{
